@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>主页</title>
+    <script type="text/javascript" src="js/jquery/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="layui-v2.2.45/layui/css/layui.css">
+    <script src="echarts-master/dist/echarts.min.js"></script>
+    <script>
+        function modifyPwd() {
+            layer.open({
+                skin: '',
+                type: 2,
+                title: ['修改密码',
+                    'background-color:#f2f5f9;font-size:16px;color:#2d83ff'],
+                shadeClose: false,
+                shade: 0.5,
+                area: ['500px', '350px'],
+                content: ["modify.jsp"],
+                success:function(){
+                    $('#layui-layer-iframe1').contents().find('#form_userid').val(userId);
+                }
+            });
+        };
+    </script>
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">ParkingSystem</div>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;" id="userName"></a>
+                <dl class="layui-nav-child">
+                    <dd><a href="javascript:void(0)" onclick="modifyPwd()">修改密码</a></dd>
+                    <dd><a href="login.jsp">注销登陆</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                <li class="layui-nav-item layui-nav-itemed">
+                    <a href="chart.jsp" target="option">主页</a>
+
+                </li>
+                <li class="layui-nav-item">
+                    <a href="carIn.jsp" target="option">入库登记</a>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="carOut.jsp" target="option">出库登记</a>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="records.jsp" target="option">历史记录</a>
+
+                </li>
+                <li class="layui-nav-item">
+                    <a href="users.jsp" target="option">用户管理</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <iframe id="option" name="option" src="chart.jsp" width=100% height="100%"></iframe>
+    </div>
+
+    <div class="layui-footer">
+        © layui.com - ParkingSys
+    </div>
+</div>
+<script src="layui-v2.2.45/layui/layui.js"></script>
+<script>
+    var nickName = sessionStorage.getItem("nickName");
+    var userId = sessionStorage.getItem("userId");
+    console.log(userId);
+    //JavaScript代码区域
+    layui.use(['element', 'layer', 'form'], function () {
+        var element = layui.element
+            , $ = layui.jquery
+            , form = layui.form
+            , layer = layui.layer;
+
+        $("#userName").text(nickName);
+
+    });
+</script>
+</body>
+</html>

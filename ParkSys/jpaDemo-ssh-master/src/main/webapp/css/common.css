@@ -1,0 +1,1002 @@
+body,*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+a{text-decoration: none;}
+input,select,button,textarea{outline: none;}
+img{border: none;}
+li{list-style-type: none;}
+table{table-layout: fixed;}
+table tr td{padding: 0 10px;}
+input:focus{border: solid 1px #5F9FFC!important;}
+
+.fLeft{float: left;}
+.fRight{float: right;}
+.clear{clear: both;}
+.inline{display: inline-block!important;display: inline;}
+.pointer{cursor: pointer;}
+/*.jcDate{background: url(../images/date-icon.png) no-repeat 95%;cursor: pointer;}*/
+.relative{position: relative;}
+.displayNone{display: none;}
+.middle{vertical-align: middle;}
+
+/******************************************修改 2017-8-21  Start*******************************************************************************/
+
+*头部图标*
+.icon-header-arrow{background: url(../images/icon-user-arow.png) no-repeat center;}
+.icon-header-update{background: url(../images/icon-header-update.png) no-repeat center;}
+.icon-index{background: url(../images/header-icon1.png) no-repeat center;}
+.icon-task{background: url(../images/header-icon2.png) no-repeat center;}
+.icon-monitor{background: url(../images/header-icon3.png) no-repeat center;}
+.icon-data{background: url(../images/header-icon4.png) no-repeat center;}
+.icon-cluster{background: url(../images/header-icon5.png) no-repeat center;}
+.icon-system{background: url(../images/header-icon6.png) no-repeat center;}
+.icon-help{background: url(../images/header-icon7.png) no-repeat center;}
+.icon-logOut{background: url(../images/header-logoutIcon.png) no-repeat center;}
+/*************************************修改2017-8-24 Start*******************************************************/
+/***不可用效果**/
+.header-navUl li.disabled .icon-index{background: url(../images/header-icon1-d.png) no-repeat center;}
+.header-navUl li.disabled .icon-task{background: url(../images/header-icon2-d.png) no-repeat center;}
+.header-navUl li.disabled .icon-monitor{background: url(../images/header-icon3-d.png) no-repeat center;}
+.header-navUl li.disabled .icon-data{background: url(../images/header-icon4-d.png) no-repeat center;}
+.header-navUl li.disabled .icon-cluster{background: url(../images/header-icon5-d.png) no-repeat center;}
+.header-navUl li.disabled .icon-system{background: url(../images/header-icon6-d.png) no-repeat center;}
+.header-navUl li.disabled .icon-help{background: url(../images/header-icon7-d.png) no-repeat center;}
+/************************************End********************************************************/
+
+.icon-search{background: url(../images/search-icon.png) no-repeat center;}
+.icon-out{background: url(../images/out-icon.png) no-repeat center;}
+.icon-refresh{background: url(../images/icon-refresh.png) no-repeat center;}
+
+
+.icon-pageLeft{background: url(../images/page-left.png) no-repeat center;}
+.icon-pageRight{background: url(../images/page-right.png) no-repeat center;}
+.rankIcon.up{background: url(../images/rank-up.png) no-repeat center;}
+.rankIcon.down{background: url(../images/rank-down.png) no-repeat center;}
+
+/***************************************************添加 2017-8-25 Start****************************************************************************************************************/
+/***任务流   图标*****/
+.icon-task-new{background: url(../images/icon-task-new.png) no-repeat center;}
+.icon-task-open{background: url(../images/icon-task-open.png) no-repeat center;}
+.icon-task-save{background: url(../images/icon-task-save.png) no-repeat center;}
+.icon-task-saveAs{background: url(../images/icon-task-saveAs.png) no-repeat center;}
+.icon-task-del{background: url(../images/icon-task-del.png) no-repeat center;}
+.icon-task-revoke{background: url(../images/icon-task-revoke.png) no-repeat center;}
+.icon-task-reDo{background: url(../images/icon-task-reDo.png) no-repeat center;}
+.icon-task-do{background: url(../images/icon-task-do.png) no-repeat center;}
+/***Hover 效果*****/
+.common-topUl li:hover .icon-task-new{background: url(../images/icon-task-new-h.png) no-repeat center;}
+.common-topUl li:hover .icon-task-open{background: url(../images/icon-task-open-h.png) no-repeat center;}
+.common-topUl li:hover .icon-task-save{background: url(../images/icon-task-save-h.png) no-repeat center;}
+.common-topUl li:hover .icon-task-saveAs{background: url(../images/icon-task-saveAs-h.png) no-repeat center;}
+.common-topUl li:hover .icon-task-del{background: url(../images/icon-task-del-h.png) no-repeat center;}
+.common-topUl li:hover .icon-task-revoke{background: url(../images/icon-task-revoke-h.png) no-repeat center;}
+.common-topUl li:hover .icon-task-reDo{background: url(../images/icon-task-reDo-h.png) no-repeat center;}
+.common-topUl li:hover .icon-task-do{background: url(../images/icon-task-do-h.png) no-repeat center;}
+/***不可用效果*****/
+.common-topUl li.disabled .icon-task-new{background: url(../images/icon-task-new-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-task-open{background: url(../images/icon-task-open-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-task-save{background: url(../images/icon-task-save-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-task-saveAs{background: url(../images/icon-task-saveAs-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-task-del{background: url(../images/icon-task-del-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-task-revoke{background: url(../images/icon-task-revoke-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-task-reDo{background: url(../images/icon-task-reDo-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-task-do{background: url(../images/icon-task-do-d.png) no-repeat center;}
+
+/***************************************************添加  End****************************************************************************************************************/
+
+
+/****系统管理   用户头部图标*****/
+.icon-top-search{background: url(../images/icon-top-search.png) no-repeat center;}
+.icon-top-new{background: url(../images/icon-top-new.png) no-repeat center;}
+.icon-top-edit{background: url(../images/icon-top-edit.png) no-repeat center;}
+.icon-top-del{background: url(../images/icon-top-del.png) no-repeat center;}
+.icon-top-power{background: url(../images/icon-top-power.png) no-repeat center;}
+.icon-top-on{background: url(../images/icon-top-on.png) no-repeat center;}
+.icon-top-disable{background: url(../images/icon-top-disable.png) no-repeat center;}
+.icon-top-pwd{background: url(../images/icon-top-pwd.png) no-repeat center;}
+.icon-top-file{background: url(../images/icon-top-file.png) no-repeat center;}
+/****hover效果*****/
+.common-topUl li:hover .icon-top-search{background: url(../images/icon-top-search-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-new{background: url(../images/icon-top-new-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-edit{background: url(../images/icon-top-edit-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-del{background: url(../images/icon-top-del-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-power{background: url(../images/icon-top-power-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-on{background: url(../images/icon-top-start-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-disable{background: url(../images/icon-top-stop-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-pwd{background: url(../images/icon-top-pwd-h.png) no-repeat center;}
+.common-topUl li:hover .icon-top-file{background: url(../images/icon-top-file-h.png) no-repeat center;}
+/****不可用效果****/
+.common-topUl li.disabled .icon-top-search{background: url(../images/icon-top-search-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-new{background: url(../images/icon-top-new-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-edit{background: url(../images/icon-top-edit-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-del{background: url(../images/icon-top-del-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-power{background: url(../images/icon-top-power-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-on{background: url(../images/icon-top-start-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-disable{background: url(../images/icon-top-stop-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-pwd{background: url(../images/icon-top-pwd-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-top-file{background: url(../images/icon-top-file-d.png) no-repeat center;}
+
+
+/***系统管理      算法库左边图标****/
+.icon-sf-basic{background: url(../images/icon-sj-basic1.png) no-repeat center;}
+.icon-sf-dataSinal{background: url(../images/icon-sj-data.png) no-repeat center;}
+.icon-sf-dataMining{background: url(../images/icon-sj-data1.png) no-repeat center;}
+.icon-sf-select{background: url(../images/icon-sj-select.png) no-repeat center;}
+.icon-sf-add{background: url(../images/icon-sj-add.png) no-repeat center;}
+.icon-sf-minus{background: url(../images/icon-sj-minus.png) no-repeat center;}
+.icon-sf-outter{background: url(../images/icon-sj-outer.png) no-repeat center;}
+.icon-sf-inner{background: url(../images/icon-sj-inner.png) no-repeat center;}
+.icon-sf-custom{background: url(../images/icon-sj-custom.png) no-repeat center;}
+
+
+/**集群头部图表      物理机***/
+.icon-cluster-add{background: url(../images/icon-cluster-add.png) no-repeat center;}
+.icon-cluster-configure{background: url(../images/icon-cluster-configure.png) no-repeat center;}
+.icon-cluster-active{background: url(../images/icon-cluster-active.png) no-repeat center;}
+.icon-cluster-logOut{background: url(../images/icon-cluster-logOut.png) no-repeat center;}
+.icon-cluster-detail{background: url(../images/icon-cluster-detail.png) no-repeat center;}
+/**hover效果***/
+.common-topUl li:hover .icon-cluster-add{background: url(../images/icon-cluster-add-h.png) no-repeat center;}
+.common-topUl li:hover .icon-cluster-configure{background: url(../images/icon-cluster-configure-h.png) no-repeat center;}
+.common-topUl li:hover .icon-cluster-active{background: url(../images/icon-cluster-active-h.png) no-repeat center;}
+.common-topUl li:hover .icon-cluster-logOut{background: url(../images/icon-cluster-logOut-h.png) no-repeat center;}
+.common-topUl li:hover .icon-cluster-detail{background: url(../images/icon-cluster-detail-h.png) no-repeat center;}
+/***不可用效果****/
+.common-topUl li.disabled .icon-cluster-add{background: url(../images/icon-cluster-add-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-cluster-configure{background: url(../images/icon-cluster-configure-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-cluster-active{background: url(../images/icon-cluster-active-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-cluster-logOut{background: url(../images/icon-cluster-logOut-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-cluster-detail{background: url(../images/icon-cluster-detail-d.png) no-repeat center;}
+
+
+/**集群头部图表     平台管理***/
+.icon-plat-node{background: url(../images/icon-plat-node.png) no-repeat center;}
+.icon-plat-node1{background: url(../images/icon-plat-node1.png) no-repeat center;}
+/**hover效果***/
+.common-topUl li:hover .icon-plat-node{background: url(../images/icon-plat-node-h.png) no-repeat center;}
+.common-topUl li:hover .icon-plat-node1{background: url(../images/icon-plat-node1-h.png) no-repeat center;}
+/**不可用效果***/
+.common-topUl li.disabled .icon-plat-node{background: url(../images/icon-plat-node-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-plat-node1{background: url(../images/icon-plat-node1-d.png) no-repeat center;}
+
+
+/**集群头部图表     应用集群***/
+.icon-app-start{background: url(../images/icon-app-start.png) no-repeat center;}
+.icon-app-stop{background: url(../images/icon-app-stop.png) no-repeat center;}
+.icon-app-del{background: url(../images/icon-app-del.png) no-repeat center;}
+/**Hover效果***/
+.common-topUl li:hover .icon-app-start{background: url(../images/icon-app-start-h.png) no-repeat center;}
+.common-topUl li:hover .icon-app-stop{background: url(../images/icon-app-stop-h.png) no-repeat center;}
+.common-topUl li:hover .icon-app-del{background: url(../images/icon-app-del-h.png) no-repeat center;}
+/**不可用效果***/
+.common-topUl li.disabled .icon-app-start{background: url(../images/icon-app-start-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-app-stop{background: url(../images/icon-app-stop-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-app-del{background: url(../images/icon-app-del-d.png) no-repeat center;}
+
+
+/****td表格中的操作图标*****/
+.icon-td-serach{background: url(../images/icon-td-cluster.png) no-repeat center;}
+.icon-td-edit{background: url(../images/icon-td-edit.png) no-repeat center;}
+.icon-td-adjust{background: url(../images/icon-adjust-h.png) no-repeat center;}
+.icon-version{background: url(../images/icon-version.png) no-repeat center;}
+.icon-model{background: url(../images/icon-model.png) no-repeat center;}
+.icon-monitor-select{background: url(../images/monitor-select.png) no-repeat center;}
+/**Hover效果***/
+.common-tdDiv:hover .icon-td-serach{background: url(../images/icon-select-h.png) no-repeat center;}
+.common-tdDiv:hover .icon-td-edit{background: url(../images/icon-edit-h.png) no-repeat center;}
+.common-tdDiv:hover .icon-td-adjust{background: url(../images/icon-td-adjust.png) no-repeat center;}
+.common-tdDiv:hover .icon-monitor-select{background: url(../images/monitor-select-d.png) no-repeat center;}
+
+
+/***数据管理头部图标    数据管理****/
+.icon-data-copy{background: url(../images/icon-data-copy.png) no-repeat center;}
+.icon-data-cut{background: url(../images/icon-data-cut.png) no-repeat center;}
+.icon-data-paste{background: url(../images/icon-data-paste.png) no-repeat center;}
+.icon-data-rename{background: url(../images/icon-data-rename.png) no-repeat center;}
+.icon-data-zip{background: url(../images/icon-data-zip.png) no-repeat center;}
+.icon-data-unzip{background: url(../images/icon-data-unzip.png) no-repeat center;}
+.icon-data-rename{background: url(../images/icon-data-rename.png) no-repeat center;}
+.icon-data-old{background: url(../images/icon-data-old.png) no-repeat center;}
+.icon-data-download{background: url(../images/icon-data-download.png) no-repeat center;}
+.icon-data-upload{background: url(../images/icon-data-upload.png) no-repeat center;}
+/***Hover 效果***/
+.common-topUl li:hover .icon-data-copy{background: url(../images/icon-data-copy-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-cut{background: url(../images/icon-data-cut-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-paste{background: url(../images/icon-data-paste-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-rename{background: url(../images/icon-data-rename-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-zip{background: url(../images/icon-data-zip-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-unzip{background: url(../images/icon-data-unzip-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-rename{background: url(../images/icon-data-rename-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-old{background: url(../images/icon-data-old-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-download{background: url(../images/icon-data-download-h.png) no-repeat center;}
+.common-topUl li:hover .icon-data-upload{background: url(../images/icon-data-upload-h.png) no-repeat center;}
+/****不可用效果****/
+.common-topUl li.disabled .icon-data-copy{background: url(../images/icon-data-copy-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-cut{background: url(../images/icon-data-cut-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-paste{background: url(../images/icon-data-paste-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-rename{background: url(../images/icon-data-rename-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-zip{background: url(../images/icon-data-zip-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-unzip{background: url(../images/icon-data-unzip-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-rename{background: url(../images/icon-data-rename-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-old{background: url(../images/icon-data-old-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-download{background: url(../images/icon-data-download-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-data-upload{background: url(../images/icon-data-upload-d.png) no-repeat center;}
+
+
+/****数据发布 图标****/
+.icon-publish-edit{background: url(../images/icon-publish-edit.png) no-repeat center;}
+/***Hover 效果***/
+.common-topUl li:hover .icon-publish-edit{background: url(../images/icon-publish-edit-h.png) no-repeat center;}
+/****不可用效果****/
+.common-topUl li.disabled .icon-publish-edit{background: url(../images/icon-publish-edit-d.png) no-repeat center;}
+/**************************************************修改结束    End****************************************************************************************************/
+
+/****************************************修改 2018-8-31 Start************************************************/
+.color-fff{color: #FFF;}
+.color-blue{color: #2d83ff;}
+/****************************************修改 2018-8-31 End************************************************/
+
+/****任务监控 图标****/
+.icon-monitor-search{background: url(../images/monitor-search.png) no-repeat center;}
+.icon-monitor-continue{background: url(../images/monitor-continue.png) no-repeat center;}
+.icon-monitor-interrupted{background: url(../images/monitor-interrupted.png) no-repeat center;}
+.icon-monitor-reset{background: url(../images/monitor-reset.png) no-repeat center;}
+.icon-monitor-priority{background: url(../images/monitor-priority.png) no-repeat center;}
+.icon-monitor-out{background: url(../images/monitor-out.png) no-repeat center;}
+.icon-monitor-detail{background: url(../images/monitor-detail.png) no-repeat center;}
+.icon-monitor-task{background: url(../images/monitor-task.png) no-repeat center;}
+/***Hover 效果***/
+.common-topUl li:hover .icon-monitor-search{background: url(../images/monitor-search-h.png) no-repeat center;}
+.common-topUl li:hover .icon-monitor-continue{background: url(../images/monitor-continue-h.png) no-repeat center;}
+.common-topUl li:hover .icon-monitor-interrupted{background: url(../images/monitor-interrupted-h.png) no-repeat center;}
+.common-topUl li:hover .icon-monitor-reset{background: url(../images/monitor-reset-h.png) no-repeat center;}
+.common-topUl li:hover .icon-monitor-priority{background: url(../images/monitor-priority-h.png) no-repeat center;}
+.common-topUl li:hover .icon-monitor-out{background: url(../images/monitor-out-h.png) no-repeat center;}
+.common-topUl li:hover .icon-monitor-detail{background: url(../images/monitor-detail-h.png) no-repeat center;}
+.common-topUl li:hover .icon-monitor-task{background: url(../images/monitor-task.png-h) no-repeat center;}
+/****不可用效果****/
+.common-topUl li.disabled .icon-monitor-search{background: url(../images/monitor-search-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-monitor-continue{background: url(../images/monitor-continue-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-monitor-interrupted{background: url(../images/monitor-interrupted-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-monitor-reset{background: url(../images/monitor-reset-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-monitor-priority{background: url(../images/monitor-priority-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-monitor-out{background: url(../images/monitor-out-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-monitor-detail{background: url(../images/monitor-detail-d.png) no-repeat center;}
+.common-topUl li.disabled .icon-monitor-task{background: url(../images/monitor-task-d.png) no-repeat center;}
+
+
+.btn-blue{background: #5f9ffc;}
+.btn-blue:hover{background: #5f93fc;}
+.btn-green{background: #2dc53e;}
+.btn-green:hover{background: #2eb13d;}
+.btn-gray{background: #d9d9d9;}
+.btn-gray:hover{background: #bebebe;}
+.btn-orange{background: #FF8400;}
+.btn-orange:hover{background: #e37500;}
+.btn-red{background: #ff6060;}
+.btn-red:hover{background: #f44242;}
+.btn-add-blue{background: #5f9ffc;}
+.btn-add-blue:hover{background: #1276ff;}
+.btn-del-red{background: #FC5F5F;}
+.btn-del-red:hover{background: #F44242;}
+
+.btn-more{
+	background: #fff;
+	border: solid 1px #9bc5fd;
+	color: #388bfc;
+}
+.btn-more:hover{
+	color: #fff;
+	background: #388bfc;
+	border: solid 1px #388bfc;
+}
+.btn-refresh{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+.btn-refresh i{
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.btn-select{
+	width: 70px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 12px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.color-fff{color: #FFF;}
+
+.rankIcon{
+	width: 8px;
+	height: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.margin-t-20{margin-top: 20px;}
+.margin-t-30{margin-top: 30px;}
+
+.commom-database-layerUl .common-radioDiv{margin-right: 20px;}
+.common-radioDiv,
+.common-checkBoxDiv{
+	position: relative;
+	/* margin-right: 20px; */
+}
+.common-radioDiv input,
+.common-checkBoxDiv input{
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	-webkit-opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/****************************************修改 2017-8-31 Start*******************************************************/
+.common-radioDiv label{
+	display: inline-block;
+	padding-left: 23px;
+	height: 16px;
+	line-height: 16px;
+	text-align: right;
+	background: url(../images/radio-unchecked.png) no-repeat left;
+	color: #333;
+}
+.common-radioDiv label:hover{background: url(../images/radio-hover.png) no-repeat left;}
+.common-radioDiv input:checked + label{background: url(../images/radio-checked.png) no-repeat left;}
+
+.common-checkBoxDiv label{
+	display: block;
+	height: 17px;
+	line-height: 17px;
+	padding-left: 25px;
+	text-align: left;
+	background: url(../images/checkbox-uncheck.png) no-repeat left;
+	/* color: #333; */
+	color: #222;
+}
+/****************************************修改 2017-8-31 End*******************************************************/
+.common-checkBoxDiv label:hover{background: url(../images/checkbox-hover.png) no-repeat left;}
+.common-checkBoxDiv input:checked + label{background: url(../images/checkbox-checked.png) no-repeat left;}
+
+
+.container{min-width: 1346px;background-color: #f3f3f3;	}
+/*****header Start*****/
+.header{
+	height: 80px;
+	padding: 0 30px;
+	background-color: #388bfc;
+}
+.header-logo{
+	margin: 27px 0;
+}
+.header-nav{
+    margin: 0 auto;
+    text-align: center;
+    width: 73.95%;
+}
+.header-navUl li{
+	display: inline-block!important;
+	display: inline;
+	padding: 15px 30px;
+	text-align: center;
+}
+.header-navUl li:hover,
+.header-navUl li.current{
+	background-color: #1276ff;
+}
+.header-navUl li i{
+	display: block;
+	width: 22px;
+	height: 22px;
+	margin: 0 auto 9px;
+}
+.header-navUl li p{
+	color: #FFF;
+}
+/**********************修改 2017-8-24 Start**************************************************/
+.header-navUl li.disabled p{color: #CCCCCC;}
+.header-navUl li.disabled {cursor: default;pointer-events: none;}
+.header-navUl li.disabled:hover{background-color: #388bfc;}
+/***********************Enbd*************************************************/
+.header-info{
+	color: #FFFFFF;
+	padding: 25px 0;
+}
+.header-info.bg{
+	background: #227bfa;
+}
+.header-user{
+	padding: 0 10px;
+}
+.header-info p{font-size: 14px;line-height: 20px;}
+.header-info p.p1{
+	color: #fff;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.header-info p.p2{
+	color: #d7e7ff;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.header-info img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.header-user-info{
+	cursor: pointer;
+}
+.header-user-info i{
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 6px 0 12px 18px;
+	cursor: pointer;
+}
+.header-userUl{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 55px;
+	z-index: 2;
+	background: #fff;
+}
+.header-userUl.box-shadow{
+	box-shadow: 0 0 10px #edeff8;
+	-webkit-box-shadow: 0 0 10px #edeff8;
+}
+.header-userUl li{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+}
+.header-userUl li:hover{background: #f6f6f6;}
+.header-userUl li i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+
+
+.header-logOut{
+	line-height: 30px;
+	margin-left: 35px;
+	cursor: pointer;
+}
+.header-logOut i{
+	width: 12px;
+	height: 14px;
+	display: inline-block!important;
+	display: inline;
+	margin-right: 7px;
+}
+/***header end***/
+/****center Start****/
+.center{
+	background-color: #f3f3f3;
+	padding: 30px 30px 35px;
+}
+/****center End****/
+.common-top{
+	padding: 20px 0;
+	background: #fff;
+	text-align: center;
+}
+.common-topUl li{
+	display: inline;
+	display: inline-block!important;
+	padding: 0 30px;
+	border-right: solid 1px #ededed;
+	cursor: pointer;
+}
+.common-topUl li:last-child{
+	border-right: none;
+}
+.common-topUl li i{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.common-topUl li label{
+	color: #333;
+	vertical-align: middle;
+	cursor: pointer;
+}
+/**********************************修改    2017-8-21**********************************************************/
+.common-topUl li.disabled {cursor: default;pointer-events: none;}
+.common-topUl li:hover label{color: #5f9ffc;}
+.common-topUl li.disabled label{color: #cbc9c9;cursor: not-allowed;}
+/***********************************修改 结束**********************************************************************/
+
+.common-topSearch{
+	position: absolute;
+	width: 100%;
+	top: 62px;
+	z-index: 20;
+	height: 100px;
+	line-height: 100px;
+	background: #fff;
+	display: none;
+	border-bottom: solid 1px #e9e9e9;
+	box-shadow: 2px 0 2px #e4e9ee;
+}
+.common-searchDiv.common-topSearch .common-inputDiv div.fLeft input,
+.common-searchDiv.common-topSearch .common-inputDiv div.inline input{
+	width: 163px;
+}
+
+.common-itemUl li{
+	background: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	border: solid 1px #eeeeee;
+	border-right: none;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+
+	cursor: pointer;
+}
+.common-itemUl li a{
+	width: 20px;
+	height: 90px;
+	color: #333;
+	padding: 0 6px;
+	display: block;
+}
+
+.common-itemUl li:hover,
+.common-itemUl li.current{
+	background: #2D83FF;
+}
+.common-itemUl li.current a,
+.common-itemUl li:hover a{
+	color: #fff;
+}
+
+
+.common-tabDiv{
+	padding-left: 30px;
+	border-bottom: solid 1px #e7edf3;
+}
+.common-tabUl li{
+	width: 96px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	margin-right: 10px;
+	background: #eff4f8;
+	text-align: center;
+	color: #333;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	cursor: pointer;
+}
+.common-tabUl li:hover,
+.common-tabUl li.current{
+	background: #5f9ffc;
+	color:#fff;
+}
+
+.common-rightDiv{
+	width: 97.435%;
+	/* min-height: 600px; */
+	min-height: 777px;
+	background: #fff;
+	text-align: center;
+	float:left;
+}
+
+.common-itemUl li.padding-30 a{padding: 30px 6px;height: 30px;}
+.common-itemUl li.padding-15 a{padding: 15px 6px;height: 60px;}
+.common-itemUl li.padding-6 a{padding: 6px 6px;height: 78px;}
+.common-itemUl li.padding-5 a{padding: 5px 6px;height: 116px;}
+.common-itemUl li.padding-4 a{padding: 6px 6px;height: 135px;}
+.common-inputDiv div.inline{vertical-align: middle;}
+.common-inputDiv div.fLeft input,
+.common-inputDiv div.inline input{
+	height: 30px;
+	line-height: 30px;
+	max-width: 200px;
+	/* color: #aaa; */
+	color: #222;
+	font-size: 12px;
+	padding: 0  0 0 15px;
+	border: solid 1px #ccc;
+}
+.common-inputDiv div.fLeft .dropdown,
+.common-inputDiv div.inline .dropdown{
+	padding-left: 15px;
+	max-width: 200px;
+}
+.common-btnDiv button{
+	width: 86px;
+	height: 32px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	/* font-size: 12px; */
+	color: #fff;
+	margin-left: 20px;
+}
+.common-btnDiv button i{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin:8px 12px 8px 0;
+}
+
+
+.common-layerDiv{padding: 20px 0 30px;}
+/********************************修改 2017-8-21  Start***************************************************/
+.common-layerCenter{padding: 10px 35px 90px 30px;}
+.common-userInfo-layerCenter{padding: 10px 35px 35px 30px;}
+/*********************************End **************************************************/
+.common-layerCenter.padd-b-0{padding-bottom: 0;}
+.commn-layerUl li{
+	margin-top: 20px;
+}
+.commn-layerUl li > label{
+	float: left;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	color: #222;
+	vertical-align: middle;
+}
+.commn-layerUl li > label.line-height-20{
+	line-height: 20px;
+}
+.commn-layerUl li > input,
+.commn-layerUl li textarea{
+	float: left;
+	vertical-align: middle;font-size: 12px;
+	/* color: #999; */
+	color: #222;
+	padding-left: 12px;
+	border: solid 1px #CCCCCC;
+}
+.commn-layerUl li > input{
+	height: 30px;
+	line-height: 30px;
+}
+.commn-layerUl li textarea{
+	padding-top: 10px;
+}
+.commn-layerUl li .dropdown li{
+	margin: 0;
+}
+.commn-layerUl li .dropdown .selected{
+	position: absolute;
+	left: 12px;
+	width: 88%;
+}
+.common-login-layerUl li label{width: 80px;}
+.common-login-layerUl li input{width: 300px;}
+
+.common-treeDiv{
+	border: solid 1px #e0e0e0;
+	border-radius: 4px;
+	border-bottom: none;
+	overflow-y: auto;
+}
+.common-treeDiv .common-checkBoxDiv{
+	display: inline-block;
+}
+.common-treeUl li{
+	color: #333333;
+}
+.common-treeUl li .rowDiv{padding:16px 0 16px 40px;border-bottom: solid 1px #E0E0E0;}
+.common-treeUl li .common-treeUl1 li .rowDiv{padding-left: 65px;}
+.common-treeUl li .common-treeUl1 li .common-treeUl2 li{padding:16px 0 16px 90px;border-bottom: solid 1px #E0E0E0;}
+.common-treeUl li .common-treeUl1 li .common-treeUl2 li .common-checkBoxDiv.fLeft{margin: 14px 40px 14px 0;}
+
+
+.common-treeUl li .rowDiv{
+	background-image: url(../images/tree-close.png);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	background-color: #fff;
+	color: #333;
+}
+.common-treeUl li .rowDiv.close{
+	background-image: url(../images/tree-close.png);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	background-color: #fff;
+	color: #333;
+}
+.common-treeUl li .rowDiv.open{
+	background-image: url(../images/tree-open.png);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	background-color: #e7f1ff;
+	color: #5f9ffc;
+}
+.common-treeUl li .rowDiv.close + ul{
+	display: none;
+}
+.common-treeUl li .common-treeUl1 li .rowDiv.close + ul{
+	display: none;
+}
+.common-treeUl li .common-treeUl1 li .rowDiv.close{
+	background-color: #fff;
+	color: #333;
+}
+.common-treeUl li .common-treeUl1 li .rowDiv.open{
+	background-color: #fff;
+	color: #5f9ffc;
+}
+
+
+table tr td.text-blue{color: #5f9ffc;}
+table tr td.text-red{color: #fc5f5f;}
+table tr td.text-orange{color: #ff8400;}
+table tr td.text-green{color: #2dc53e;}
+table tr td.text-gray{color: #aaa;}
+table tr td.border-right{border-right: solid 1px #eee;}
+/*********************************修改 2017-8-22  Start*****************************************************/
+table{border: solid 1px #eee;}
+table thead tr td{
+	/* background: #eaf2f7; */
+	background: #f3f8fc;
+	font-weight: bold;
+	color: #222;
+}
+table tr td{
+	height: 60px;
+	text-align: center;
+	color: #222;
+    overflow: hidden;
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+    word-break: break-all;
+}
+.table-task tbody tr:hover td{
+	background: #85b9ff!important;
+	color: #fff!important;
+}
+.table tbody tr:nth-child(even) td{background: #f7f7f7;}
+.table.table-check .common-checkBoxDiv{
+	max-width: 100px;
+	left: 20%;
+}
+.table tbody tr:hover td{
+	background: #85b9ff!important;
+	color: #fff!important;
+}
+/* .table tbody tr.clickTr td{
+	background: #85b9ff!important;
+	color: #fff!important;
+} */
+/****************************************End ********************************************************/
+.pageDiv{
+	text-align: center;
+	margin: 40px 0 35px;
+}
+
+.hide{display:none;}
+.pageUl li{
+	padding: 0 10px;
+	height: 30px;
+	display: inline-block!important;
+	display: inline;
+	font-size: 16px;
+	margin-right: 5px;
+	line-height: 30px;
+	border: solid 1px #c5c5c5;
+	border-radius: 4px;
+	color: #999;
+	cursor: pointer;
+}
+.pageUl li:hover{
+	color: #5f9ffc;
+	border: solid 1px #5F9FFC;
+}
+.pageUl li.current{
+	background: #5f9ffc;
+	border: solid 1px #5f9ffc;
+	color: #fff;
+}
+/*.pageUl li:first-child:hover,
+.pageUl li:last-child:hover{
+	border: solid 1px #c5c5c5;
+	color: #999;
+	background: #fff;
+}*/
+.pageUl li i{
+	width: 9px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.page-Redirect p{
+	color: #333;
+	font-size: 16px;
+}
+.page-Redirect input{
+	width: 30px;
+	height: 30px;
+	border-radius: 4px;
+	border: solid 1px #c5c5c5;
+	color: #999;
+	margin: 0 15px;
+	text-align: center;
+}
+.pageBtn{
+	width: 60px;
+	height: 32px;
+	border-radius: 3px;
+	color: #fff;
+	background: #5f9ffc;
+	border: none;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.pageBtn:hover{
+	background: #5F93FC;
+}
+
+.common-bottomDiv{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border-top: solid 1px #e0e7f1;
+	background: #f2f5f9;
+	text-align: center;
+}
+.common-bottomDiv button{
+	width: 90px;
+	height: 32px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.common-tdDiv{
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.common-tdDiv:last-child{margin-right: 0;}
+.common-tdDiv i{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.td-p{
+	margin: 10px auto;
+	padding: 10px 0;
+	background: #f9f9f9;
+	border: solid 1px #eee;
+}
+
+
+@media (min-width:1480px) and (max-width:1640px ) {
+	.header-nav{
+		width:70.95%;
+
+	}
+}
+@media (min-width:1366px) and (max-width:1480px ) {
+	.header-nav{
+		width:67.95%;
+	}
+}
+@media (max-width:1366px){
+	.header-nav{
+		width:65.95%;
+	}
+}
+@media (min-width:1919px ) {
+	.container{
+		min-width: 1903px;
+	}
+	.header-navUl li{
+		padding: 15px 40px;
+	}
+	/* .common-rightDiv{
+		width: 97.535%;
+	} */
+
+}
+
+/************************************************************************************************/
+.common-layerCenter textarea {
+    border: 1px solid #cccccc;
+    color: #999;
+    font-size: 12px;
+    padding-left: 12px;
+    vertical-align: middle;
+}
+
+.inputbutton{
+	width: 86px;
+	height: 32px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	/* font-size: 12px; */
+	color: #fff;
+	margin-left: 20px;
+}
+
+/****************************************没有权限的空白页面***********************************************/
+.index-title{
+	height: 77px;
+	line-height: 77px;
+	padding: 0 40px;
+	font-size: 16px;
+	color: #333;
+	border-bottom: solid 1px #ddd;
+}
+.index-info{
+	height: 77px;
+	line-height: 77px;
+	padding: 10px 40px;
+	font-size: 16px;
+	color: #777;
+}
+.index-sysTip{
+	background: #fff;
+}
+
+/*****************************************个人信息页面**************************************************/
+.common-userInfo-imgDiv{
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+.common-userInfo-imgDiv img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.common-userInfo-layerUl li {
+	margin-top: 10px;
+}
+.common-userInfo-layerUl li > input,
+.common-userInfo-layerUl li > textarea{width: 360px;}
+.common-userInfo-layerUl li > textarea{height: 85px;}
+.common-userInfo-layerUl label{width: 80px;}
+.common-userInfo-layerUl .common-radioDiv label{width: 15px;}
+.common-userInfo-layerUl span{
+	display: inline-block;
+	vertical-align: middle;
+	height: 32px;
+	line-height: 32px;
+	max-width: 360px;
+	color: #333;
+}

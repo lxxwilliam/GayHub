@@ -1,0 +1,146 @@
+.login-containner {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../images/login-bj.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.login-canvas {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-center {
+    width: 510px;
+    height: 345px;
+    padding: 60px 0 75px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -240px;
+    margin-left: -255px;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 20;
+}
+
+.login-logo {
+    width: 268px;
+    margin: 0 auto 40px;
+}
+
+.login-centerForm {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.login-inputDiv {
+    width: 360px;
+    height: 45px;
+    border: solid 1px #e3e8ee;
+    margin-top: 20px;
+}
+
+.login-inputDiv.box-shadow {
+    box-shadow: 0 0 5px #e3e8ee;
+    -webkit-box-shadow: 0 0 5px #e3e8ee;
+}
+
+.login-inputDiv i.icon {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-inputDiv i.eyeIcon {
+    width: 30px;
+    height: 43px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.login-icon-user {
+    background: url(../images/login-user-gray.png) no-repeat center;
+}
+
+.login-icon-pwd {
+    background: url(../images/login-pwd-gray.png) no-repeat center;
+}
+
+.login-icon-eye {
+    background: url(../images/login-eye.png) no-repeat center;
+}
+
+.login-inputDiv.box-shadow .login-icon-user {
+    background: url(../images/login-user.png) no-repeat center;
+}
+
+.login-inputDiv.box-shadow .login-icon-pwd {
+    background: url(../images/login-pwd.png) no-repeat center;
+}
+
+.text.login-icon-eye {
+    background: url(../images/login-eye-open.png) no-repeat center;
+}
+
+.login-inputDiv input {
+    width: 310px;
+    height: 43px;
+    color: #333;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-inputDiv input:focus {
+    border: none !important;
+}
+
+.login-inputDiv input.pwd-input {
+    width: 270px;
+}
+
+.login-remenber {
+    margin-top: 30px;
+    color: #5f9ffc;
+}
+
+.login-remenber div.editPwd:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 360px;
+    height: 46px;
+    border: none;
+    border-radius: 3px;
+    background: #0fcb94;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.login-btn:hover {
+    background: #0db382;
+}
+
+.login-bottom {
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    position: fixed;
+    bottom: 0;
+    background: #10a8d9;
+    text-align: center;
+}
+
+.login-bottom span {
+    color: #fff;
+    font-size: 12px;
+    margin-right: 20px;
+}
